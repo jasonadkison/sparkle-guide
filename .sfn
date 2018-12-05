@@ -20,6 +20,7 @@ Configuration.new do
   #   Name of bucket in object store to hold nested
   #   stack templates
   # nesting_bucket 'BUCKET_NAME'
+  nesting_bucket ENV['SFN_NESTING_BUCKET_NAME']
   #   Prefix used on generated template path prior to storage
   #   in the object store
   # nesting_prefix 'nested-templates'
